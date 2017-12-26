@@ -21,7 +21,7 @@
 
 			<aside id="topbar">
 				<?php
-					$menu_table_exist = false; //tableExist(TABLE_PREFIX . 'menu');
+					$menu_table_exist = tableExist(TABLE_PREFIX . 'menu');
 					if($menu_table_exist) {
 						require_once($template_path . '/menu_top_dynamic.php');
 					}
