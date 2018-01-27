@@ -410,7 +410,6 @@ hr {
 #pandaac table {
     border-collapse: separate;
     border-spacing: 1px;
-    width: 100%
 }
 #pandaac table.uniform {
     border-spacing: 0!important
@@ -472,7 +471,6 @@ hr {
 #pandaac table tr td,
 #pandaac table tr th {
     font-weight: 400;
-    padding: 6px;
     color: #5a2800;
     margin: 0
 }
