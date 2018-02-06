@@ -15,7 +15,7 @@ $db->query("
 /* left menu */
 INSERT INTO `myaac_menu` (`template`, `name`, `link`, `category`, `ordering`) VALUES ('tibiaold', 'Latest News', 'news', 1, 0);
 INSERT INTO `myaac_menu` (`template`, `name`, `link`, `category`, `ordering`) VALUES ('tibiaold', 'News Archive', 'news/archive', 1, 1);
-INSERT INTO `myaac_menu` (`template`, `name`, `link`, `category`, `ordering`) VALUES ('tibiaold', 'Changelog', 'news/archive', 1, 2);
+INSERT INTO `myaac_menu` (`template`, `name`, `link`, `category`, `ordering`) VALUES ('tibiaold', 'Changelog', 'changelog', 1, 2);
 INSERT INTO `myaac_menu` (`template`, `name`, `link`, `category`, `ordering`) VALUES ('tibiaold', 'Account', 'account/manage', 1, 3);
 INSERT INTO `myaac_menu` (`template`, `name`, `link`, `category`, `ordering`) VALUES ('tibiaold', 'Register', 'account/create', 1, 4);
 INSERT INTO `myaac_menu` (`template`, `name`, `link`, `category`, `ordering`) VALUES ('tibiaold', 'Lost Account?', 'account/lost', 1, 5);
